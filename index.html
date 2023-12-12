@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js" defer></script>
+	<title>JS Examples</title>
+</head>
+<body id="body">
+
+	<div class="form_wrapper">
+		<form>
+			<fieldset>
+				<legend>Customer Information</legend>
+				<table>
+					<tr>
+						<th>First Name</th>
+						<td><input type="text" name="fname" id="fname" placeholder="First name here" required></td>
+					</tr>
+					<tr>
+						<th>Last Name</th>
+						<td><input type="text" name="lname" id="lname" placeholder="Last name here" required></td>
+					</tr>
+					<tr>
+						<th>Are you a student of University of Cebu?</th>
+						<td>
+							<input type="radio" name="q1" id="r1" value="No"><label for="r1">No</label>
+							<input type="radio" name="q1" id="r2" value="Yes"><label for="r2">Yes</label>
+						</td>
+					</tr>
+					<tr>
+						<th>What is the hardest Subject of BSIT 1st year?</th>
+						<td>
+							<input type="checkbox" name="q2" id="c1" value="comprog"><label for="c1">comprog</label><br>
+							<input type="checkbox" name="q2" id="c2" value="webdev"><label for="c2">webdev</label><br>
+							<input type="checkbox" name="q2" id="c3" value="intcom"><label for="c3">intcom</label>
+						</td>
+					</tr>
+					<tr>
+						<th>Mobile Number</th>
+						<td><input type="text" name="number" id="number" placeholder="+639xxxxxxxx"></td>
+					</tr>
+					<tr>
+						<th>Email Address</th>
+						<td><input type="email" name="email" id="email" placeholder="example@mail.com"></td>
+					</tr>
+					<tr>
+						<th>Message</th>
+						<td>
+							<textarea  name="message" id="message" placeholder="Your message here"></textarea>
+						</td>
+					</tr>
+				</table>			
+				<div class="btnWrapper">
+					<input type="submit" name="submitBtn" id="submitBtn" value="Submit" onclick="getData()">
+				</div>
+			</fieldset>
+		</form>
+	</div>
+
+
+
+
+
+
+</body>
+</html>

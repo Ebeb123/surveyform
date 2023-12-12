@@ -1,0 +1,52 @@
+.form_wrapper {
+	width: 30%;
+	margin: 20px auto;
+	padding: 5%;
+/*	border: 1px solid #000;*/
+}
+
+
+
+table { width: 100%; }
+table p { margin: 0; font-size: 2.25vw; }
+table td {
+	width: 75%;
+	padding: 10px 0;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+	padding: 5px;
+	width: calc(100% - 10px);
+	font-size: 16px;
+	border: 1px solid #BCBCBC;
+}
+textarea { height: 100px; }
+*::placeholder {
+	font-size: 12px;
+}
+.btnWrapper {
+	width: 30%;
+	margin: 10px auto;
+	text-align: center;
+}
+#submitBtn {
+	width: 100%;
+	display: block;
+}
+.back { text-align: center; }
+
+
+/* fieldset styles */
+fieldset#exam {
+	width: 20%;
+	margin: 20px auto;
+}
+fieldset legend { margin-bottom: 20px; }
+fieldset input { margin-block: 5px 10px; }
+/*legend { margin: auto; padding: 0 20px; }*/
+
+
+button {
+	margin-block: 20px;
+}
